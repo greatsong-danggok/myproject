@@ -1,7 +1,7 @@
 from vpython import *
 
 ball = sphere(pos=vector(0, 0, 0), radius=0.5, color=color.cyan)
-ball.velocity = vector(1, 0, 0)
+ball.velocity = vector(1, 10, 0)
 
 dt = 0.01
 while True:
